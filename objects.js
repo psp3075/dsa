@@ -1,4 +1,6 @@
-//not iterable
+//not iterable, unordered
+//data-type of the key-field is restricted to integer, strings, and symbols
+// has prototype as key
 const obj = {
   name: 'Adam',
   age: 25,
