@@ -20,7 +20,7 @@ class Queue{
   }
 
   peek(){
-    return this.isEmpty()? this.items[0]:null
+    return !this.isEmpty()? this.items[0]:null
   }
 
   size(){
