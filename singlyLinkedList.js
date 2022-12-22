@@ -15,6 +15,7 @@ class SinglyLinkedList {
         this.tail = null
         this.length = 0
     }
+  
     push(val) {
         var newNode = new Node(val)
         if (!this.head) {
@@ -89,6 +90,7 @@ class SinglyLinkedList {
         }
         return false
     }
+  
     insert(index, val) {
         if (index < 0 || index > this.length) return false
         if (index === this.length) return !!this.push(val)
